@@ -55,7 +55,7 @@ public class AmazonTest {
 		System.setProperty("webdriver.safari.driver", "drivers/safaridriver");
 		this.driver = new SafariDriver();
 		// Set the base URL for this test
-		this.baseUrl = "https://www.amazon.com/";
+		this.baseUrl = "https://www.amazon.com";
 		// Set an implicit wait of up to 30 seconds
 		this.driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		// Maximize the window
